@@ -1,0 +1,48 @@
+{
+    "user" : {
+        "fullName": "Thandazile Lindokuhle Ntshangase",
+        "photo" : "./Photo.jpg"
+    },
+    "city" : {
+        "name" : "Cape Town",
+        "photo" : "./cape town.jpg",
+        "description" : "The iconic mountain ragesm, stunning natural wonders, thrilling landscapes and ocean vistas, Cape Town offers no shortage of adventures.The lifestyle of locals and visitors alike centres around the outdoors and an active lifestyle."
+    },
+    "foreignLanguage" : {
+        "language" : "Spanish",
+        "description": "I want to be exposed to a ew culture, to make new professional connections, finding unique job opportuities and make travel easier. I believe that learnig spanish can improve cognitive function, memory and creativity.",
+        "phrases" : [{
+            "englishPhrase" : "good morning",
+            "foreignLanguage" : "buen día"
+        },
+        {
+            "englishPhrase" : "how are you",
+            "foreignLanguage" : "Cómo estás"
+        },
+        {
+            "englishPhrase": "how old are you",
+            "foreignLanguage": "cuántos años tiene"
+        },
+        {
+            "englishPhrase": "do you know free code camp",
+            "foreignLanguage": "¿Conoces el campamento de código gratuito?"
+        }]
+    },
+    "favouriteSubjects" : [
+        {
+            "name" : "Full Stack Development For 4IR",
+            "description" : "It offers a comprehensive exploration of Full Stack Development, focusing on the tools, technologies, and methodologies relevant to the Fourth Industrial Revolution. Participants will gain practical skills in both frontend and backend development, enabling them to build cutting-edge web applications that leverage 4IR technologies.",
+            "photo": "./Full stack.jpg"
+        },
+        {
+            "name" : "4IR Technologies Bootcamp",
+            "photo": "./Technology.jpg",
+            "description" : "Provides an in-depth exploration of the transformative technologies driving the Fourth Industrial Revolution. Participants will gain hands-on experience with cutting-edge tools and techniques shaping various industries, preparing them to leverage these advancements in their careers."
+        },
+        {
+            "name" : "Agile Rapid Skills Acquisition",
+            "photo": "./Agile-Software-Development1.png",
+            "description" : "It is designed to equip participants with the mindset, methodologies, and practical techniques needed to rapidly acquire new skills and adapt to changing environments using Agile principles. Participants will learn how to efficiently learn, apply, and iterate on new skills, enabling them to stay competitive in fast-paced industries."
+        }
+    ]
+}

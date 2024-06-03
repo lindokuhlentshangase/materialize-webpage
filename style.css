@@ -1,0 +1,99 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    flex: 2;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url(table.jpg);
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.table {
+    border: 1px solid;
+    text-align: justify;
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+    padding: 8px;
+}
+
+
+
+.mthandazo {
+    width: 200px;
+    height: 200px;
+    flex: 0;
+    padding: 1em;
+    text-align: center;
+    
+
+}
+
+.Mandela {
+    display: inline-flex;
+    flex: 1;
+}
+
+.Walter_Sisulu_Square {
+    display: inline-flex;
+    flex: 1;
+}
+
+.constitution_hill {
+    display: inline-flex;
+    flex: 1;
+}
+
+
+
+.Full-stack {
+    display:inline-flex ;
+}
+
+.Agile-Software-Development1 {
+    display: inline-flex;
+}
+
+.tech {
+    display: inline-flex;
+}
+
+@media (min-width:960px) {
+     .Introduction {
+    display: flex;
+}
+.Historic_places {
+    display: flex;
+    /* padding: 6px;
+    border-image-width: 10%;
+    min-width: 0%; */
+ }   
+
+.favourite-subjects {
+    display: flex;
+    /* padding: 6px;
+    border-image-width: 10%;
+    min-width: 0%; */
+}
+
+.Which-city {
+    display: flex;
+}
+    }
+
+.favourite subjects {
+    flex: flex; 
+    border-image: auto;
+    padding: 6px;
+    border-image: 10%;
+    min-width: 0%;
+}
+

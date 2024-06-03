@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="materialize.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        h1 {
+            flex: 2;
+            text-align: center;
+        }
+
+
+        h2 {
+            text-align: center;
+        }
+
+        .favourite subjects {
+            display: flex;
+            padding: 6px;
+            border-image-width: 10%;
+            min-width: 0%;
+        }
+
+        
+
+        @media (max-width: 720px) {
+            .city {
+                display: inline-flex;
+            }
+            
+        }
+
+        @media (max-width: 960px) {
+            .Full-stack {
+            display: inline-flex;
+        }
+
+        .Agile-Software-Development1 {
+            display: inline-flex;
+        }
+
+        .tech {
+            display: inline-flex;
+        }
+
+        }
+
+    </style>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col s6 m2 l4">
+
+            </div>
+        </div>
+    </div> -->
+
+    <div class="#7c4dff deep-purple.accent-2">
+    <div class="row">  
+        <div class="background-image">
+        <section class="Introduction">
+            <h1 class="center-align col s12 m8 l8" >{{user.fullName}}</h1>
+            <img src="{{user.photo}}" style="float: right;" width="150" class="responsive-img col s12 m4 l4">
+        </div>
+            </div>
+            </div>
+        </section>
+            
+            <section>
+            <h3>{{city.name}}</h3>
+            <div class="city">
+                <div class="row">
+            <img src="{{city.photo}}" class="col s12 m5 l5 responsive-img" width="150">
+            <P class="col s12 m7 l7">{{city.description}}</P>
+            </div>
+        </div>
+        </div>
+            </section>
+        
+        
+        
+        <div class="Language">
+            <section class="Language">
+            <h2 class="center-align"> A Foreign Language</h2>
+            <h3>{{foreignLanguage.language}}</h3>
+            <p>{{foreignLanguage.description}}</p>
+        
+            <table border="1" class="table" width="1300">
+                <tr>
+                    <th>Spanish</th>
+                    <th>English</th>
+                </tr>
+                <tr>
+                    <td>buen día</td>
+                    <td>good morning</td>
+                </tr>
+                <tr>
+                    <td>Cómo estás</td>
+                    <td>how are you</td>
+                </tr>
+                <tr>
+                    <td>cuántos años tiene</td>
+                    <td>how old are you</td>
+                </tr>
+                <tr>
+                    <td>¿Conoces el campamento de código gratuito?</td>
+                    <td>do you know free code camp</td>
+                </tr>
+                
+            </table>
+        </section>
+        </div>
+        
+        
+        <section>
+                <h2 class="center-align"> Favourite Subjects</h2>
+                <p>I have completed Bachelor of Commerce Honours in Economics at University of Zululand.</p>
+                <div class="favourite-subjects">
+                    <div class="row">
+                <div class="col 14 m4 s12">
+                    <div>
+                        <h3>{{favouriteSubjects.0.name}}</h3>
+                        <P class="col s6 m6 l6">{{favouriteSubjects.0.description}}</P>
+                        <img src="{{favouriteSubjects.0.photo}}" class="col s6 m6 l6">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col 14 m4 s12">
+                        <div class="mid-text">
+                            <h3>{{favouriteSubjects.1.name}}</h3>
+                            <P class="col s6 push-s6 m6 l6">{{favouriteSubjects.1.description}}</P>
+                            <img src="{{favouriteSubjects.1.photo}}" class="col s6 pull-s6 m6 l6">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col 14 m4 s12">
+                            <div>
+                                <h3>{{favouriteSubjects.2.name}}</h3>
+                                <P class="col s6 m6 l6">{{favouriteSubjects.2.description}}</P>
+                                <img src="{{favouriteSubjects.2.photo}}" class="col s6 m6 l6">
+                            </div>
+                        </div>
+
+
+
+                </div>
+        
+        
+            </section>
+        </div>             
+</body>
+</html>
